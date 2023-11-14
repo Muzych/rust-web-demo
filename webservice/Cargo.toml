@@ -8,6 +8,7 @@ default-run = "teacher-service"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+actix-cors = "0.6.0-beta"
 actix-web = "4.0.0-rc.2"
 actix-rt = "2.6.0"
 dotenv = "0.15.0"
@@ -21,9 +22,6 @@ sqlx = {version = "0.5.10", default_features = false, features = [
     "macros",
     "chrono"
 ]}
-
-[[bin]]
-name = "server1"
 
 [[bin]]
 name = "teacher-service"
