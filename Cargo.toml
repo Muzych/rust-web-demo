@@ -1,2 +1,2 @@
 [workspace]
-members = ["tcpclient", "tcpserver", "httpserver", "http", "webservice"]  
+members = ["tcpclient", "tcpserver", "httpserver", "http", "webservice","wasm-pack-template"]
