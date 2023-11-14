@@ -14,6 +14,8 @@ mod routers;
 mod state;
 #[path = "../models.rs"]
 mod models;
+#[path = "../db_access.rs"]
+mod db_access;
 
 
 use routers::*;
